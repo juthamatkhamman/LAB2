@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
             }else{
                 echo "น.ส.".$row["fname"]." ".$row["lname"];
             }
-           
+            
         }
         else{
             echo "ด.ญ.".$row["fname"]." ".$row["lname"];
